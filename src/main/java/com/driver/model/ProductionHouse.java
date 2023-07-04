@@ -53,7 +53,7 @@ public class ProductionHouse {
     }
 
     public double getRatings() {
-        return ratings;
+        return ratings/ webSeriesList.size();
     }
 
     public void setRatings(double ratings) {
